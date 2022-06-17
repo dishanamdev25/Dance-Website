@@ -1,0 +1,26 @@
+//- layout.pug
+//basic content 
+//this will be fille in home.pug page  
+doctype html
+html
+  head
+    title Harry Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+            ul  
+                div#logo
+                    img(src='/static/img/logodance.jpeg') 
+                    |HDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+
+    block content
+    //block foot
+    //we want footer to be same on every page
+    footer#footer 
+        | copyright  2019 HarryDanceAcademy.com |All rights reserved

@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 30px;
+    
+    
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(179, 62, 62);
+    padding:10px 12px; 
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{
+text-decoration: none;
+padding: 3px 20px;
+font-size: 30px;
+color:white;
+
+}
+#navbar li a:hover{
+    color: rgb(8, 8, 8);
+    }
+
+#introSection{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+    font-size: 30px;
+    background: center / cover no-repeat url("1.jpeg");
+    background-color: red;
+    height: 300px;
+
+}
+#introSection div.small{
+    font-size: small;
+}
+#sponsorSection{
+    background-color: yellow;
+    height: 300px;
+}
+#missionSection{
+    height:300px;
+}
+#missionSeciton h2{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding-top:12px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin:15px 15px;
+    height: 209px;
+    display: inline-block;
+}
+.card h3{
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 20px;
+}
+
+#footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}

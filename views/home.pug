@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts 
+    script(src='/sktatic/index.js')
+block style
+    style 
+        include ../static/style.css
+block content 
+    //semantic tag
+    section#introSection 
+        div Welcome to Jyoti's Dance ACademy 
+        div.small Eat Sleep Dance and Repeat
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection 
+            div.card-box 
+                div.card-img 
+                    img(src=" ./static/img/logo1.png " alt="image")
+                div.card-content 
+                    p This is the best dance academy
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src=" ./static/img/logo1.png " alt="image")
+                div.card-content 
+                    p This is the best dance academy
+
+        div.card 
+            h3 Express your dance
+            div.card-box 
+                div.card-img 
+                    img(src=" ./static/img/logo1.png " alt="image")
+                div.card-content 
+                    p This is the best dance academy where jif  if mid djfkf
+    section#sponsorSection 
+        h2 section for sponsors 
+        div#sponsers 
+            img(src="../static/img/logo1.png",alt="Sponsers image",class="spimage")
